@@ -1,24 +1,40 @@
 .top {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    margin: 0;
+
+    
+}
+
+.text {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 75px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    ;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
+    gap: 50px;
+    margin-right: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header ul {
     display: flex;
-    padding: 10px;
+    padding: 0;
     margin: 0;
     list-style-type: none;
     text-decoration: none;
@@ -33,3 +49,37 @@ a {
 
 }
 
+.img-picnic {
+    height: 200px;
+}
+
+
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 325px;
+    gap: 5px
+}
+
+.awesome .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.awesome .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.awesome button {
+    background-color: #3882F6;
+    color: white;
+    width: 90px;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
